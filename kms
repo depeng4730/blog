@@ -1,0 +1,23 @@
+第一部分  win10
+
+方法：在win10桌面状态下，右击windows徽标或按快捷键windows+x，点击命令提示符（管理员）
+
+ 
+
+用到的命令是slmgr，手动kms激活命令如下：
+
+slmgr.vbs /upk
+
+slmgr /ipk W269N-WFGWX-YVC9B-4J6C9-T83GX
+slmgr /skms zh.us.to
+slmgr /ato
+
+ 
+
+第一条命令，slmgr.vbs /upk，是用于卸载当前电脑的密钥
+
+第二条命令，slmgr /ipk******，其中*****是密钥，一般用上面的密钥即可
+
+第三条命令，slmgr /skms zh.us.to，是设置kms服务器地址，一般很多kms地址失效，可以尝试其他地址，如kms.xspace.in，kms.shuax.com、skms.ddns.net 等等
+
+第四条命令，slmgr /ato ，是激活命令，连接到kms服务器进行windows激活
